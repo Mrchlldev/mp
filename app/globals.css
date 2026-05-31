@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 48 100% 68%;
+  --secondary-background: 0 0% 100%;
+  --foreground: 0 0% 0%;
+  --main-foreground: 0 0% 0%;
+  --main: 221 100% 66%;
+  --muted: 0 0% 92%;
+  --muted-foreground: 0 0% 28%;
+  --border: 0 0% 0%;
+  --input: 0 0% 0%;
+  --ring: 0 0% 0%;
+  --radius-base: 10px;
+  --shadow: 5px 5px 0px 0px hsl(var(--border));
+}
+
+* { border-color: hsl(var(--border)); }
+html { scroll-behavior: smooth; }
+body { background: hsl(var(--background)); color: hsl(var(--foreground)); }
+::selection { background: #ff90e8; color: #000; }
